@@ -1,10 +1,6 @@
-money = int(input())
-count_500 = money // 500
-money = money % 500
-count_100 = money // 100
-money = money % 100
-count_50 = money // 50
-money = money % 50
-count_10 = money // 10
-money = money % 10
-print(count_500, count_100, count_50, count_10)
+original_price = int(input())
+if original_price > 50000:
+    discount = original_price * 0.95
+elif original_price
+    discount = 0
+print(discount)
